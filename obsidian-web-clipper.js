@@ -111,4 +111,10 @@ Promise.all([import('https://unpkg.com/turndown@6.0.0?module'), import('https://
       + "&content=" + encodeURIComponent(fileContent)
       + vaultName ;
   };
+  
+  GM.registerButton({
+    id: 'obsidia-web-clip',
+    caption: 'Send clip to Obsidian',
+    callback: run,
+  });
 });
