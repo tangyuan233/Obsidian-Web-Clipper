@@ -100,7 +100,7 @@ Promise.all([import('https://unpkg.com/turndown@6.0.0?module'), import('https://
     const fileContent = 
         "---\n"
         + "author: " + byline + "\n"
-        + "source: [" + title + "](" + document.URL + ")\n"
+        + "source: "[" + title + "](" + document.URL + ")"\n"
         + "clipped: [[" + today + "]]\n"
         + "---\n" 
         + tags + "\n\n"
