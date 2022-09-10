@@ -98,11 +98,9 @@ Promise.all([import('https://unpkg.com/turndown@6.0.0?module'), import('https://
     const today = convertDate(date);
     
     const fileContent = 
-        "---\n"
-        + "author: " + byline + "\n"
-        + "source: " + document.URL + "\n"
-        + "clipped: [[" + today + "]]\n"
-        + "---\n" 
+        "author:: " + byline + "\n"
+        + "source:: [" + title + "](" + document.URL + ")\n"
+        + "clipped:: [[" + today + "]]\n"
         + tags + "\n\n"
         + markdownBody ;
     
