@@ -17,7 +17,7 @@ Promise.all([import('https://unpkg.com/turndown@6.0.0?module'), import('https://
   const vault = "";
 
   /* Optional folder name such as "Clippings/" */
-  const folder = "400 Source/Markdownload/";
+  const folder = "400 Source/MarkDownload/";
 
   /* Optional tags  */
   const tags = "#clippings";
