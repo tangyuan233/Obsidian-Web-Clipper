@@ -102,6 +102,7 @@ Promise.all([import('https://unpkg.com/turndown@6.0.0?module'), import('https://
         + "source:: [" + title + "](" + document.URL + ")\n"
         + "clipped:: [[" + today + "]]\n\n"
         + tags + "\n\n"
+        + "# " + title + "\n\n"
         + markdownBody ;
     
     document.location.href = "obsidian://new?"
