@@ -20,7 +20,7 @@ Promise.all([import('https://unpkg.com/turndown@6.0.0?module'), import('https://
   const folder = "400 Source/MarkDownload/";
 
   /* Optional tags  */
-  const tags = "#clippings";
+  const tags = "#source/clippings";
 
   const run = () => {
     function getSelectionHtml() {
