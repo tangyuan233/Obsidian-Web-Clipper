@@ -143,7 +143,7 @@ Promise.all([import('https://unpkg.com/turndown@6.0.0?module'), import('https://
       + '---\n\n'
       + markdownBody ;
 
-   document.location.href = "craftdocs://createdocument?spaceId=https://docs.craft.do/editor/d/9706fbf8-1b08-2da7-f21f-4af3c8209291"
+   document.location.href = "craftdocs://createdocument?spaceId=9706fbf8-1b08-2da7-f21f-4af3c8209291"
     + "title=" + encodeURIComponent(title)
     + "&content=" + encodeURIComponent(fileContent);
 
